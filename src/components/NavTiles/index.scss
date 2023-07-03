@@ -1,0 +1,71 @@
+.navtiles {
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  &__tile {
+    height: 126px;
+    width: 266px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: var(--border-radius-10);
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  &__title {
+    padding: 12px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
+  &__icon {
+    height: 20px;
+    width: 20px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.blue {
+  background-color: var(--blue);
+  color: var(--black);
+  text-decoration: none;
+}
+
+.green {
+  background-color: var(--green);
+  color: var(--black);
+  text-decoration: none;
+}
+
+.yellow {
+  background-color: var(--yellow);
+  color: var(--black);
+  text-decoration: none;
+}
+
+.pink {
+  background-color: var(--pink);
+  color: var(--black);
+  text-decoration: none;
+}
+
+.purple {
+  background-color: var(--purple);
+  color: var(--black);
+  text-decoration: none;
+}
+
+.orange {
+  background-color: var(--orange);
+  color: var(--black);
+  text-decoration: none;
+}

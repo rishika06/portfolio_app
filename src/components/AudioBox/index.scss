@@ -1,0 +1,38 @@
+.audiobox {
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 300px;
+    // width: 820px;
+    border-radius: var(--border-radius-10);
+    background-image: linear-gradient(
+      to left,
+      var(--dark-blue),
+      var(--light-blue)
+    );
+    color: var(--white);
+  }
+
+  &__title {
+    font-size: 22px;
+  }
+
+  &__play-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: linear-gradient(
+      to right,
+      var(--dark-blue),
+      var(--light-blue)
+    );
+  }
+}
